@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "auto_rig_cals"              # PyPI 등록될 패키지 이름
+version = "0.1.0"
+description = "external library for Blender add-on"
+authors = ["LSH <tkd99200622@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tkd992006/auto_rig_pro_cals"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+trimesh = "^4.6"
+numpy = "^1.18
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
